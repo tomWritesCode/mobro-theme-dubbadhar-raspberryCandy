@@ -285,7 +285,7 @@ function createClosedDoughnuts(element) {
 			datasets: [
 				{
 					data: [2, 1],
-					backgroundColor: ['rgba(220,186,249, 1)', 'rgba(0, 254, 255, 0.5)'],
+					backgroundColor: ['rgba(0, 254, 255, 1)', 'rgba(220, 186, 249, 0.5)'],
 					borderWidth: 0,
 				},
 			],
@@ -339,7 +339,7 @@ function createLine(element, interpolate = false) {
 				{
 					lineTension: 0,
 					data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-					borderColor: 'rgba(220,186,249, 1)',
+					borderColor: 'rgba(0, 254, 255, 1)',
 					borderWidth: 2,
 					pointRadius: '0',
 					fill: false,
@@ -448,7 +448,7 @@ function configureChartJS() {
 				ctx.lineWidth = lineWidth;
 
 				//green path
-				ctx.strokeStyle = '#00ff1e';
+				ctx.strokeStyle = '#C3E88D';
 				ctx.beginPath();
 				ctx.arc(
 					width / 2,
@@ -463,7 +463,7 @@ function configureChartJS() {
 				ctx.stroke();
 
 				//yellow path
-				ctx.strokeStyle = '#FFFF00';
+				ctx.strokeStyle = '#f0e879';
 				ctx.beginPath();
 				ctx.arc(
 					width / 2,
@@ -478,7 +478,7 @@ function configureChartJS() {
 				ctx.stroke();
 
 				//red path
-				ctx.strokeStyle = '#FF0000';
+				ctx.strokeStyle = '#FF5370';
 				ctx.beginPath();
 				ctx.arc(
 					width / 2,
