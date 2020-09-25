@@ -265,7 +265,7 @@ function createDoughnuts(element) {
 			datasets: [
 				{
 					data: [0, 0],
-					backgroundColor: ['rgba(0, 254, 255, 1)', 'rgba(220, 186, 249, 0.5)'],
+					backgroundColor: ['rgba(0, 254, 255, 1)', 'rgba(220, 186, 249, 1)'],
 					borderWidth: 0,
 				},
 			],
@@ -285,7 +285,7 @@ function createClosedDoughnuts(element) {
 			datasets: [
 				{
 					data: [2, 1],
-					backgroundColor: ['rgba(0, 254, 255, 1)', 'rgba(220, 186, 249, 0.5)'],
+					backgroundColor: ['rgba(0, 254, 255, 1)', 'rgba(220, 186, 249, 1)'],
 					borderWidth: 0,
 				},
 			],
