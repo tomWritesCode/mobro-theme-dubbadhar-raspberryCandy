@@ -409,7 +409,7 @@ function configureChartJS() {
 				ctx.fillText(text_unit, Math.round(width / 2), textY + height / 4);
 
 				ctx.font = fontSize + 'px sans-serif';
-				ctx.fillStyle = rgba(220, 186, 249, 1);
+				ctx.fillStyle = chart.config.data.datasets[0].backgroundColor[0];
 				ctx.textAlign = 'center';
 				ctx.fillText(value, textX, textY + height / 30);
 				ctx.fillStyle = oldFill;
